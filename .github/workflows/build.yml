@@ -4,13 +4,13 @@ name: Build
 
 on:
   push:
-    branches: [mega]
+    branches: [esp32_display]
     tags-ignore: '**'
     paths-ignore:
       - 'dist/Release_notes.txt'
       - 'docs/**'
   pull_request:
-    branches: [mega]
+    branches: [esp32_display]
 
 permissions:
   contents: read
